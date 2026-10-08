@@ -32,7 +32,7 @@ const translations = {
         ],
         ".contact > p": ["HAVE A PROJECT IN MIND?"],
         ".contact h2": ["Let's talk."],
-        ".contact .primary": ["Get in touch →"],
+        
     },
     ua: {
         title: ["Владислав Гадяк | Розробник Python"],
@@ -55,7 +55,6 @@ const translations = {
         ],
         ".contact > p": ["МАЄТЕ ІДЕЮ ДЛЯ ПРОЄКТУ?"],
         ".contact h2": ["Поговорімо."],
-        ".contact .primary": ["Зв’язатися →"],
     },
 };
 

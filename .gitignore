@@ -2,7 +2,7 @@
 .env
 .env.*
 !.env.example
-requiments.txt
+requirements.txt
 
 # Python
 __pycache__/

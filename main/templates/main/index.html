@@ -1,6 +1,7 @@
 {% load static %}
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,265 +13,273 @@
 
 <body>
 
-<header class="navbar">
+    <header class="navbar">
 
-    <a href="#" class="logo">
-        VLADYSLAV
-    </a>
+        <a href="#" class="logo">
+            VLADYSLAV
+        </a>
 
-    <nav class="nav-links">
-        <a href="#projects">Work</a>
-        <a href="#about">About</a>
-        <a href="#contact">Contact</a>
-    </nav>
+        <nav class="nav-links">
+            <a href="#projects">Work</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+        </nav>
 
-    <div class="nav-actions">
+        <div class="nav-actions">
 
-        <button id="theme-toggle" class="nav-button">
-            ☾
-        </button>
+            <button id="theme-toggle" class="nav-button">
+                ☾
+            </button>
 
-        <button id="language-toggle" class="nav-button">
-            UA
-        </button>
-
-    </div>
-
-</header>
-
-
-<main>
-
-    <!-- HERO -->
-
-    <section class="hero">
-
-        <div class="hero-content">
-
-            <p class="greeting">
-                Hi, I'm
-            </p>
-
-            <h1>
-                Vladyslav
-                <span>Hadiak</span>
-            </h1>
-
-            <h2>
-                Python Developer
-            </h2>
-
-            <p class="description">
-                I build backend systems, automation tools
-                and data-driven applications.
-            </p>
-
-            <div class="technologies">
-
-                <span></span>
-
-            </div>
-
-            <div class="hero-buttons">
-
-                <a href="#projects" class="button primary">
-                    View my work
-                </a>
-
-                <a
-                    href="https://github.com/"
-                    target="_blank"
-                    class="button secondary"
-                >
-                    GitHub ↗
-                </a>
-
-            </div>
+            <button id="language-toggle" class="nav-button">
+                UA
+            </button>
 
         </div>
 
-
-        <!-- PROFILE PHOTO -->
-
-        <div class="character">
-            <img src="{% static 'main/img/photo.png' %}" alt="Portrait of Vladyslav Gadiak">
-        </div>
-
-    </section>
+    </header>
 
 
-    <!-- ACHIEVEMENT -->
+    <main>
 
-    <section class="achievement">
+        <!-- HERO -->
 
-        <div class="achievement-number">
-            02
-        </div>
+        <section class="hero">
 
-        <div class="achievement-content">
+            <div class="hero-content">
 
-            <p>
-                PLACE
-            </p>
+                <p class="greeting">
+                    Hi, I'm
+                </p>
+                <h1>
+                    Vladyslav
+                    <span>Hadiak</span>
+                </h1>
 
-            <h2>
-                IT IDEA BATTLE
-            </h2>
+                <h2>
+                    Python Developer
+                </h2>
 
-            <span>
-                2026
-            </span>
-
-        </div>
-
-        <div class="achievement-project">
-
-            <h3>
-                PetCare
-            </h3>
-
-            <p>
-                Sole Developer
-            </p>
-
-        </div>
-
-    </section>
-
-
-    <!-- PROJECTS -->
-    <section id="projects" class="projects">
-
-        <div class="section-heading">
-
-            <p>
-                SELECTED WORK
-            </p>
-
-            <h2>
-                Projects
-            </h2>
-
-        </div>
-
-        <div class="project-grid">
-            {% for project in projects %}
-
-            <article class="project-card">
-
-                <div class="project-image">
-                    {{ project.name }}
+                <p class="description">
+                    I build backend systems, automation tools
+                    and data-driven applications.
+                </p>
+                <div class="technologies">
+                    {% for skill in skills %}
+                    <span>{{skill.skill}}</span>
+                    {% empty %}
+                    <span>No skills added</span>
+                    {% endfor %}
                 </div>
 
-                <div class="project-content">
+                <div class="hero-buttons">
 
-                    <h3>
+                    <a href="#projects" class="button primary">
+                        View my work
+                    </a>
+
+
+
+                </div>
+
+            </div>
+
+
+            <!-- PROFILE PHOTO -->
+
+            <div class="character">
+                <img src="{% static 'main/img/photo.png' %}" alt="Portrait of Vladyslav Gadiak">
+            </div>
+
+        </section>
+
+
+        <!-- ACHIEVEMENT -->
+
+        <section class="achievement">
+
+            <div class="achievement-number">
+                02
+            </div>
+
+            <div class="achievement-content">
+
+                <p>
+                    PLACE
+                </p>
+
+                <h2>
+                    IT IDEA BATTLE
+                </h2>
+
+                <span>
+                    2026
+                </span>
+
+            </div>
+
+            <div class="achievement-project">
+
+                <h3>
+                    PetCare
+                </h3>
+
+                <p>
+                    Sole Developer
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- PROJECTS -->
+        <section id="projects" class="projects">
+
+            <div class="section-heading">
+
+                <p>
+                    SELECTED WORK
+                </p>
+
+                <h2>
+                    Projects
+                </h2>
+
+            </div>
+
+            <div class="project-grid">
+                {% for project in projects %}
+
+                <a href="{% url 'project_detail' project.pk %}" class="project-card">
+
+                    <div class="project-image">
+                        {% if project.photo %}
+                        <img src="{{ project.photo.url }}" alt="{{ project.name }}">
+                        {% else %}
                         {{ project.name }}
-                    </h3>
-
-                    <p>
-                        {{ project.deskrp }}
-                    </p>
-
-                    <div class="project-tags">
-                        {% for skill in project.skills.all %}
-                        <span>{{ skill.skill }}</span>
-                        {% empty %}
-                        <span>No skills added</span>
-                        {% endfor %}
+                        {% endif %}
                     </div>
 
-                </div>
+                    <div class="project-content">
 
-            </article>
-            {% empty %}
-            <p>No projects added yet.</p>
-            {% endfor %}
+                        <h3>
+                            {{ project.name }}
+                        </h3>
 
-        </div>
+                        <p>
+                            {{ project.deskrp }}
+                        </p>
 
-    </section>
+                        <div class="project-tags">
+                            {% for skill in project.skills.all %}
+                            <span>{{ skill.skill }}</span>
+                            {% empty %}
+                            <span>No skills added</span>
+                            {% endfor %}
+                        </div>
+
+                    </div>
+
+                </a>
+                {% empty %}
+                <p>No projects added yet.</p>
+                {% endfor %}
+
+            </div>
+
+        </section>
 
 
-    <!-- ABOUT -->
+        <!-- ABOUT -->
 
-    <section id="about" class="about">
+        <section id="about" class="about">
 
-        <div class="section-heading">
+            <div class="section-heading">
+
+                <p>
+                    ABOUT ME
+                </p>
+
+                <h2>
+                    Building with Python.
+                </h2>
+
+            </div>
+
+            <div class="about-content">
+
+                <p>
+                    I'm a Cybersecurity student at Lviv Polytechnic
+                    National University and a Python Developer focused
+                    on backend development, automation and data
+                    processing.
+                </p>
+
+                <p>
+                    I enjoy building practical software solutions
+                    and working with APIs, databases and automated
+                    systems.
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- CONTACT -->
+
+        <section id="contact" class="contact">
 
             <p>
-                ABOUT ME
+                HAVE A PROJECT IN MIND?
             </p>
 
             <h2>
-                Building with Python.
+                Let's talk.
             </h2>
 
-        </div>
+            <div class="contact-buttons">
+                <a href="https://t.me/your_username" class="button secondary" target="_blank" rel="noopener noreferrer">
+                    Telegram ↗
+                </a>
+                <a href="https://www.linkedin.com/in/your-profile/" class="button secondary" target="_blank"
+                    rel="noopener noreferrer">
+                    LinkedIn ↗
+                </a>
+                <a href="mailto:tarasgadjak@gmail.com" class="button primary">
+                    Email →
+                </a>
+            </div>
 
-        <div class="about-content">
+        </section>
 
-            <p>
-                I'm a Cybersecurity student at Lviv Polytechnic
-                National University and a Python Developer focused
-                on backend development, automation and data
-                processing.
-            </p>
-
-            <p>
-                I enjoy building practical software solutions
-                and working with APIs, databases and automated
-                systems.
-            </p>
-
-        </div>
-
-    </section>
+    </main>
 
 
-    <!-- CONTACT -->
-
-    <section id="contact" class="contact">
+    <footer>
 
         <p>
-            HAVE A PROJECT IN MIND?
+            © 2026 Vladyslav Gadiak
         </p>
 
-        <h2>
-            Let's talk.
-        </h2>
+        <div>
 
-        <a href="mailto:your@email.com" class="button primary">
-            Get in touch →
-        </a>
+            <a href="#">
+                GitHub
+            </a>
 
-    </section>
+            <a href="https://www.linkedin.com/in/vladuslav-hadiak-56845a310/">
+                LinkedIn
+            </a>
 
-</main>
+        </div>
 
-
-<footer>
-
-    <p>
-        © 2026 Vladyslav Gadiak
-    </p>
-
-    <div>
-
-        <a href="#">
-            GitHub
-        </a>
-
-        <a href="#">
-            LinkedIn
-        </a>
-
-    </div>
-
-</footer>
+    </footer>
 
 
-<script src="{% static 'main/js/script.js' %}"></script>
+    <script src="{% static 'main/js/script.js' %}"></script>
 
 </body>
+
 </html>
