@@ -174,10 +174,13 @@
                         <div class="project-tags">
                             {% for skill in project.skills.all %}
                             <span>{{ skill.skill }}</span>
+
                             {% empty %}
                             <span>No skills added</span>
                             {% endfor %}
                         </div>
+
+                        <span class="button primary project-read-more">Читати більше →</span>
 
                     </div>
 
@@ -243,7 +246,7 @@
                 <a href="https://t.me/your_username" class="button secondary" target="_blank" rel="noopener noreferrer">
                     Telegram ↗
                 </a>
-                <a href="https://www.linkedin.com/in/your-profile/" class="button secondary" target="_blank"
+                <a href="https://www.linkedin.com/in/vladuslav-hadiak-56845a310/" class="button secondary" target="_blank"
                     rel="noopener noreferrer">
                     LinkedIn ↗
                 </a>

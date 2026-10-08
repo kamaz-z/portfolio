@@ -444,6 +444,10 @@ button {
     font-size: 12px;
 }
 
+.project-read-more {
+    margin-top: 5px;
+}
+
 .project-link {
     font-weight: 600;
 }
