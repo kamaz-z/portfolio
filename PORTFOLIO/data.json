@@ -1,0 +1,1161 @@
+[
+{
+    "model": "main.skills",
+    "pk": 1,
+    "fields": {
+        "skill": "Python"
+    }
+},
+{
+    "model": "main.skills",
+    "pk": 2,
+    "fields": {
+        "skill": "Django"
+    }
+},
+{
+    "model": "main.skills",
+    "pk": 3,
+    "fields": {
+        "skill": "HTML"
+    }
+},
+{
+    "model": "main.skills",
+    "pk": 4,
+    "fields": {
+        "skill": "CSS"
+    }
+},
+{
+    "model": "main.skills",
+    "pk": 5,
+    "fields": {
+        "skill": "JavaScript"
+    }
+},
+{
+    "model": "main.skills",
+    "pk": 6,
+    "fields": {
+        "skill": "Python"
+    }
+},
+{
+    "model": "main.skills",
+    "pk": 7,
+    "fields": {
+        "skill": "AI-integration"
+    }
+},
+{
+    "model": "main.skills",
+    "pk": 8,
+    "fields": {
+        "skill": "Selenium"
+    }
+},
+{
+    "model": "main.skills",
+    "pk": 9,
+    "fields": {
+        "skill": "BeautifulSoup"
+    }
+},
+{
+    "model": "main.skills",
+    "pk": 10,
+    "fields": {
+        "skill": "Web Scraping"
+    }
+},
+{
+    "model": "main.progets",
+    "pk": 1,
+    "fields": {
+        "name": "Jewerly scraping",
+        "deskrp": "Python-based competitor scraper: Selenium, AI analytics, CSV reports, and email distribution via MIME.",
+        "all_deskrp": "Data Collection: Developed a Python-based scraper (using Selenium WebDriver and BeautifulSoup) to automatically gather pricing and product range data from competitors' websites. Processing and AI Analytics: Implemented data storage in SQLite/SQL and integrated Google Generative AI to analyze trends and average prices, as well as to generate cross-selling recommendations. Automation and Distribution: Configured scheduled execution via Cron and automated email reporting using CSV files (via MIME).\r\n\r\nAdditionally, I developed a Telegram bot using Python (with the Telebot library) and integrated Google Generative AI to provide 24/7 interactive customer support. It features an AI assistant for handling FAQs and an interactive color quiz that offers personalized design recommendations and advice on color combinations. The bot also provides direct links to the сatalog.",
+        "photo": "projects/Знімок_екрана_2026-10-08_021641.png",
+        "url": null,
+        "skills": [
+            1,
+            2,
+            7,
+            8,
+            9
+        ]
+    }
+},
+{
+    "model": "main.progets",
+    "pk": 2,
+    "fields": {
+        "name": "PetCare",
+        "deskrp": "Digital platform for pet owners and veterinary services",
+        "all_deskrp": "PetCare\r\n\r\nPetCare is a web platform for pet owners designed to facilitate the convenient management of pet information and interaction with essential services.\r\n\r\nI was the project's sole developer and was responsible for the entire technical implementation—from backend and database design to frontend development and third-party API integration.\r\n\r\nWhat I implemented:\r\nuser registration and authentication system;\r\nbackend and frontend components of the application;\r\ndatabase structure and data handling;\r\nNova Poshta API integration;\r\nGoogle Gemini API integration;\r\ncore business logic of the application;\r\nuser data and profile management;\r\nrequest handling, validation, and error management;\r\nresponsive and user-friendly interface.",
+        "photo": "projects/Знімок_екрана_2026-10-08_024430.png",
+        "url": "https://cde.vntu.edu.ua/index.php?id=317&id_news=3459&mode=full_news",
+        "skills": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            7
+        ]
+    }
+},
+{
+    "model": "main.progets",
+    "pk": 3,
+    "fields": {
+        "name": "hackaton",
+        "deskrp": "A web platform for optimizing logistics and resource distribution.",
+        "all_deskrp": "Logistics Management Platform\r\n\r\nThis was a team project aimed at optimizing logistics processes and improving resource management efficiency.\r\n\r\nThe project offered a valuable team collaboration experience, involving backend, frontend, and UI/UX developers, designers, and project managers. I was responsible for the entire backend development and handled part of the frontend work.\r\n\r\nWhat I implemented:\r\nuser registration and authentication;\r\napplication backend logic;\r\ndatabase management;\r\na ​​product system and product-to-user linking;\r\norder cost calculation;\r\na system for discounts and percentage-based charges;\r\nproduct management and processing logic;\r\ntracking of product movement;\r\nstorage of route, delivery time, and delivery location data;\r\npart of the frontend functionality.",
+        "photo": "projects/Знімок_екрана_2026-10-08_145510.png",
+        "url": null,
+        "skills": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+        ]
+    }
+},
+{
+    "model": "main.progets",
+    "pk": 4,
+    "fields": {
+        "name": "new progect",
+        "deskrp": "new progect",
+        "all_deskrp": "Your company’s project could be featured here—a product I would love to work on and take pride in.\r\n\r\nIf you are looking for a Junior Python/Django Developer to build new features, enhance existing systems, or tackle complex backend challenges, perhaps the next project in my portfolio will be yours.",
+        "photo": "",
+        "url": null,
+        "skills": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+        ]
+    }
+},
+{
+    "model": "main.projectphoto",
+    "pk": 1,
+    "fields": {
+        "project": 1,
+        "image": "projects/gallery/Знімок_екрана_2026-10-08_021419.png",
+        "caption": ""
+    }
+},
+{
+    "model": "main.projectphoto",
+    "pk": 2,
+    "fields": {
+        "project": 1,
+        "image": "projects/gallery/Знімок_екрана_2026-10-08_023804.png",
+        "caption": ""
+    }
+},
+{
+    "model": "main.projectphoto",
+    "pk": 3,
+    "fields": {
+        "project": 2,
+        "image": "projects/gallery/Знімок_екрана_2026-10-08_024456.png",
+        "caption": ""
+    }
+},
+{
+    "model": "main.projectphoto",
+    "pk": 4,
+    "fields": {
+        "project": 2,
+        "image": "projects/gallery/Знімок_екрана_2026-10-08_024519.png",
+        "caption": ""
+    }
+},
+{
+    "model": "main.projectphoto",
+    "pk": 5,
+    "fields": {
+        "project": 3,
+        "image": "projects/gallery/Знімок_екрана_2026-10-08_145540.png",
+        "caption": ""
+    }
+},
+{
+    "model": "main.projectphoto",
+    "pk": 6,
+    "fields": {
+        "project": 3,
+        "image": "projects/gallery/Знімок_екрана_2026-10-08_145601.png",
+        "caption": ""
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$1500000$9ZY4Q8qFFBnY36vXEM6MSh$rSIChPc90n7aRSxDxwqTB5yflnrsnkV4iWBV5nXSQD4=",
+        "last_login": "2026-10-08T11:56:57.365Z",
+        "is_superuser": true,
+        "username": "admin_portfolio",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2026-10-06T18:29:02.726Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "7xokfh62qtzes07nxbh70g03qswq1549",
+    "fields": {
+        "session_data": ".eJxVjEEOwiAQRe_C2pAOLXTGpfuegQADUjWQlHZlvLsh6UK3_73338K6Y8_2aHGzK4urAHH53bwLz1g64Icr9ypDLfu2etkVedIml8rxdTvdv4PsWu51ZOQIhn1M3nCaA-qZlEEzDsSeiDUYUKAIMDntYVLDxAnJEAOOKD5f_as3mQ:1xEmk5:-cHimkGhFP0BSYZ2I59YlvbkwyBsZcTTyHLd3d0X3n0",
+        "expire_date": "2026-10-22T11:56:57.375Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "mvynkxr039yan67yvl1hqwvc9i78tcwr",
+    "fields": {
+        "session_data": ".eJxVjEEOwiAQRe_C2pAOLXTGpfuegQADUjWQlHZlvLsh6UK3_73338K6Y8_2aHGzK4urAHH53bwLz1g64Icr9ypDLfu2etkVedIml8rxdTvdv4PsWu51ZOQIhn1M3nCaA-qZlEEzDsSeiDUYUKAIMDntYVLDxAnJEAOOKD5f_as3mQ:1xE9uk:ZJ958XcSN64KavzcTCK1Dwj_OMw5B9u1G5dGkai24F0",
+        "expire_date": "2026-10-20T18:29:22.715Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "z2xp7np8devhduwtpdrhn95fgsd9jo5q",
+    "fields": {
+        "session_data": ".eJxVjEEOwiAQRe_C2pAOLXTGpfuegQADUjWQlHZlvLsh6UK3_73338K6Y8_2aHGzK4urAHH53bwLz1g64Icr9ypDLfu2etkVedIml8rxdTvdv4PsWu51ZOQIhn1M3nCaA-qZlEEzDsSeiDUYUKAIMDntYVLDxAnJEAOOKD5f_as3mQ:1xEbLr:Q1Rdi0Hh4YKGCBwwo30hcZiHV6FlG-2vk16GAvna3_w",
+        "expire_date": "2026-10-21T23:47:11.676Z"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+        "action_time": "2026-10-06T20:31:29.850Z",
+        "user": [
+            "admin_portfolio"
+        ],
+        "content_type": [
+            "main",
+            "progets"
+        ],
+        "object_id": "1",
+        "object_repr": "Jewerly",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+        "action_time": "2026-10-06T20:31:33.190Z",
+        "user": [
+            "admin_portfolio"
+        ],
+        "content_type": [
+            "main",
+            "progets"
+        ],
+        "object_id": "1",
+        "object_repr": "Jewerly",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Skills\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 3,
+    "fields": {
+        "action_time": "2026-10-06T20:31:35.445Z",
+        "user": [
+            "admin_portfolio"
+        ],
+        "content_type": [
+            "main",
+            "progets"
+        ],
+        "object_id": "1",
+        "object_repr": "Jewerly",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Skills\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 4,
+    "fields": {
+        "action_time": "2026-10-06T20:31:37.105Z",
+        "user": [
+            "admin_portfolio"
+        ],
+        "content_type": [
+            "main",
+            "progets"
+        ],
+        "object_id": "1",
+        "object_repr": "Jewerly",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Skills\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 5,
+    "fields": {
+        "action_time": "2026-10-06T20:31:38.288Z",
+        "user": [
+            "admin_portfolio"
+        ],
+        "content_type": [
+            "main",
+            "progets"
+        ],
+        "object_id": "1",
+        "object_repr": "Jewerly",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Skills\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 6,
+    "fields": {
+        "action_time": "2026-10-06T20:31:41.180Z",
+        "user": [
+            "admin_portfolio"
+        ],
+        "content_type": [
+            "main",
+            "progets"
+        ],
+        "object_id": "1",
+        "object_repr": "Jewerly",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 7,
+    "fields": {
+        "action_time": "2026-10-06T20:31:48.717Z",
+        "user": [
+            "admin_portfolio"
+        ],
+        "content_type": [
+            "main",
+            "skills"
+        ],
+        "object_id": "6",
+        "object_repr": "Python",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 8,
+    "fields": {
+        "action_time": "2026-10-06T20:32:00.802Z",
+        "user": [
+            "admin_portfolio"
+        ],
+        "content_type": [
+            "main",
+            "progets"
+        ],
+        "object_id": "1",
+        "object_repr": "Jewerly",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Skills\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 9,
+    "fields": {
+        "action_time": "2026-10-06T20:37:24.909Z",
+        "user": [
+            "admin_portfolio"
+        ],
+        "content_type": [
+            "main",
+            "progets"
+        ],
+        "object_id": "1",
+        "object_repr": "Jewerly",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 10,
+    "fields": {
+        "action_time": "2026-10-06T20:37:53.554Z",
+        "user": [
+            "admin_portfolio"
+        ],
+        "content_type": [
+            "main",
+            "progets"
+        ],
+        "object_id": "1",
+        "object_repr": "Jewerly",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Skills\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 11,
+    "fields": {
+        "action_time": "2026-10-06T20:41:24.191Z",
+        "user": [
+            "admin_portfolio"
+        ],
+        "content_type": [
+            "main",
+            "progets"
+        ],
+        "object_id": "1",
+        "object_repr": "Jewerly",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Skills\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 12,
+    "fields": {
+        "action_time": "2026-10-06T20:41:34.481Z",
+        "user": [
+            "admin_portfolio"
+        ],
+        "content_type": [
+            "main",
+            "progets"
+        ],
+        "object_id": "1",
+        "object_repr": "Jewerly",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Skills\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 13,
+    "fields": {
+        "action_time": "2026-10-06T20:41:52.868Z",
+        "user": [
+            "admin_portfolio"
+        ],
+        "content_type": [
+            "main",
+            "progets"
+        ],
+        "object_id": "1",
+        "object_repr": "Jewerly",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Skills\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 14,
+    "fields": {
+        "action_time": "2026-10-06T20:41:56.816Z",
+        "user": [
+            "admin_portfolio"
+        ],
+        "content_type": [
+            "main",
+            "progets"
+        ],
+        "object_id": "1",
+        "object_repr": "Jewerly",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Skills\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 15,
+    "fields": {
+        "action_time": "2026-10-06T20:41:57.643Z",
+        "user": [
+            "admin_portfolio"
+        ],
+        "content_type": [
+            "main",
+            "progets"
+        ],
+        "object_id": "1",
+        "object_repr": "Jewerly",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 16,
+    "fields": {
+        "action_time": "2026-10-06T20:42:06.408Z",
+        "user": [
+            "admin_portfolio"
+        ],
+        "content_type": [
+            "main",
+            "progets"
+        ],
+        "object_id": "1",
+        "object_repr": "Jewerly",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 17,
+    "fields": {
+        "action_time": "2026-10-06T20:42:52.991Z",
+        "user": [
+            "admin_portfolio"
+        ],
+        "content_type": [
+            "main",
+            "progets"
+        ],
+        "object_id": "1",
+        "object_repr": "Jewerly",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Skills\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 18,
+    "fields": {
+        "action_time": "2026-10-06T20:43:18.044Z",
+        "user": [
+            "admin_portfolio"
+        ],
+        "content_type": [
+            "main",
+            "progets"
+        ],
+        "object_id": "2",
+        "object_repr": "PetCare",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 19,
+    "fields": {
+        "action_time": "2026-10-06T20:43:20.722Z",
+        "user": [
+            "admin_portfolio"
+        ],
+        "content_type": [
+            "main",
+            "progets"
+        ],
+        "object_id": "2",
+        "object_repr": "PetCare",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Skills\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 20,
+    "fields": {
+        "action_time": "2026-10-06T20:43:21.390Z",
+        "user": [
+            "admin_portfolio"
+        ],
+        "content_type": [
+            "main",
+            "progets"
+        ],
+        "object_id": "2",
+        "object_repr": "PetCare",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 21,
+    "fields": {
+        "action_time": "2026-10-06T20:43:30.907Z",
+        "user": [
+            "admin_portfolio"
+        ],
+        "content_type": [
+            "main",
+            "progets"
+        ],
+        "object_id": "2",
+        "object_repr": "PetCare",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Skills\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 22,
+    "fields": {
+        "action_time": "2026-10-06T20:49:39.131Z",
+        "user": [
+            "admin_portfolio"
+        ],
+        "content_type": [
+            "main",
+            "skills"
+        ],
+        "object_id": "7",
+        "object_repr": "AI-integration",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 23,
+    "fields": {
+        "action_time": "2026-10-06T20:49:40.663Z",
+        "user": [
+            "admin_portfolio"
+        ],
+        "content_type": [
+            "main",
+            "progets"
+        ],
+        "object_id": "1",
+        "object_repr": "Jewerly",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Skills\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 24,
+    "fields": {
+        "action_time": "2026-10-06T22:11:06.853Z",
+        "user": [
+            "admin_portfolio"
+        ],
+        "content_type": [
+            "main",
+            "progets"
+        ],
+        "object_id": "3",
+        "object_repr": "hackaton",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 25,
+    "fields": {
+        "action_time": "2026-10-06T22:11:18.818Z",
+        "user": [
+            "admin_portfolio"
+        ],
+        "content_type": [
+            "main",
+            "progets"
+        ],
+        "object_id": "3",
+        "object_repr": "hackaton",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Skills\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 26,
+    "fields": {
+        "action_time": "2026-10-06T22:11:28.441Z",
+        "user": [
+            "admin_portfolio"
+        ],
+        "content_type": [
+            "main",
+            "progets"
+        ],
+        "object_id": "3",
+        "object_repr": "hackaton",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Skills\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 27,
+    "fields": {
+        "action_time": "2026-10-06T22:12:05.900Z",
+        "user": [
+            "admin_portfolio"
+        ],
+        "content_type": [
+            "main",
+            "progets"
+        ],
+        "object_id": "4",
+        "object_repr": "new progect",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 28,
+    "fields": {
+        "action_time": "2026-10-07T23:30:46.590Z",
+        "user": [
+            "admin_portfolio"
+        ],
+        "content_type": [
+            "main",
+            "skills"
+        ],
+        "object_id": "8",
+        "object_repr": "Selenium",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 29,
+    "fields": {
+        "action_time": "2026-10-07T23:31:02.906Z",
+        "user": [
+            "admin_portfolio"
+        ],
+        "content_type": [
+            "main",
+            "skills"
+        ],
+        "object_id": "9",
+        "object_repr": "BeautifulSoup",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 30,
+    "fields": {
+        "action_time": "2026-10-07T23:31:31.590Z",
+        "user": [
+            "admin_portfolio"
+        ],
+        "content_type": [
+            "main",
+            "progets"
+        ],
+        "object_id": "1",
+        "object_repr": "Jewerly scraping",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Name\", \"Deskrp\", \"All deskrp\", \"Skills\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 31,
+    "fields": {
+        "action_time": "2026-10-07T23:32:25.155Z",
+        "user": [
+            "admin_portfolio"
+        ],
+        "content_type": [
+            "main",
+            "progets"
+        ],
+        "object_id": "1",
+        "object_repr": "Jewerly scraping",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Photo\"]}}, {\"added\": {\"name\": \"project photo\", \"object\": \"\\u0424\\u043e\\u0442\\u043e \\u0434\\u043b\\u044f Jewerly scraping\"}}, {\"added\": {\"name\": \"project photo\", \"object\": \"\\u0424\\u043e\\u0442\\u043e \\u0434\\u043b\\u044f Jewerly scraping\"}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 32,
+    "fields": {
+        "action_time": "2026-10-07T23:34:54.654Z",
+        "user": [
+            "admin_portfolio"
+        ],
+        "content_type": [
+            "main",
+            "progets"
+        ],
+        "object_id": "1",
+        "object_repr": "Jewerly scraping",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Photo\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 33,
+    "fields": {
+        "action_time": "2026-10-07T23:35:52.807Z",
+        "user": [
+            "admin_portfolio"
+        ],
+        "content_type": [
+            "main",
+            "progets"
+        ],
+        "object_id": "1",
+        "object_repr": "Jewerly scraping",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Photo\"]}}, {\"changed\": {\"name\": \"project photo\", \"object\": \"\\u0424\\u043e\\u0442\\u043e \\u0434\\u043b\\u044f Jewerly scraping\", \"fields\": [\"Image\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 34,
+    "fields": {
+        "action_time": "2026-10-07T23:38:22.127Z",
+        "user": [
+            "admin_portfolio"
+        ],
+        "content_type": [
+            "main",
+            "progets"
+        ],
+        "object_id": "1",
+        "object_repr": "Jewerly scraping",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"name\": \"project photo\", \"object\": \"\\u0424\\u043e\\u0442\\u043e \\u0434\\u043b\\u044f Jewerly scraping\", \"fields\": [\"Image\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 35,
+    "fields": {
+        "action_time": "2026-10-07T23:52:23.954Z",
+        "user": [
+            "admin_portfolio"
+        ],
+        "content_type": [
+            "main",
+            "progets"
+        ],
+        "object_id": "2",
+        "object_repr": "PetCare",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"All deskrp\", \"Photo\", \"Skills\"]}}, {\"added\": {\"name\": \"project photo\", \"object\": \"\\u0424\\u043e\\u0442\\u043e \\u0434\\u043b\\u044f PetCare\"}}, {\"added\": {\"name\": \"project photo\", \"object\": \"\\u0424\\u043e\\u0442\\u043e \\u0434\\u043b\\u044f PetCare\"}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 36,
+    "fields": {
+        "action_time": "2026-10-08T09:14:46.258Z",
+        "user": [
+            "admin_portfolio"
+        ],
+        "content_type": [
+            "main",
+            "progets"
+        ],
+        "object_id": "2",
+        "object_repr": "PetCare",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Url\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 37,
+    "fields": {
+        "action_time": "2026-10-08T09:15:56.210Z",
+        "user": [
+            "admin_portfolio"
+        ],
+        "content_type": [
+            "main",
+            "skills"
+        ],
+        "object_id": "10",
+        "object_repr": "Web Scraping",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 38,
+    "fields": {
+        "action_time": "2026-10-08T12:04:13.876Z",
+        "user": [
+            "admin_portfolio"
+        ],
+        "content_type": [
+            "main",
+            "progets"
+        ],
+        "object_id": "3",
+        "object_repr": "hackaton",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Deskrp\", \"Photo\"]}}, {\"added\": {\"name\": \"project photo\", \"object\": \"\\u0424\\u043e\\u0442\\u043e \\u0434\\u043b\\u044f hackaton\"}}, {\"added\": {\"name\": \"project photo\", \"object\": \"\\u0424\\u043e\\u0442\\u043e \\u0434\\u043b\\u044f hackaton\"}}, {\"added\": {\"name\": \"project photo\", \"object\": \"\\u0424\\u043e\\u0442\\u043e \\u0434\\u043b\\u044f hackaton\"}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 39,
+    "fields": {
+        "action_time": "2026-10-08T12:05:03.715Z",
+        "user": [
+            "admin_portfolio"
+        ],
+        "content_type": [
+            "main",
+            "progets"
+        ],
+        "object_id": "3",
+        "object_repr": "hackaton",
+        "action_flag": 2,
+        "change_message": "[{\"deleted\": {\"name\": \"project photo\", \"object\": \"\\u0424\\u043e\\u0442\\u043e \\u0434\\u043b\\u044f hackaton\"}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 40,
+    "fields": {
+        "action_time": "2026-10-08T12:08:42.348Z",
+        "user": [
+            "admin_portfolio"
+        ],
+        "content_type": [
+            "main",
+            "progets"
+        ],
+        "object_id": "3",
+        "object_repr": "hackaton",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"All deskrp\", \"Skills\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 41,
+    "fields": {
+        "action_time": "2026-10-08T12:11:34.172Z",
+        "user": [
+            "admin_portfolio"
+        ],
+        "content_type": [
+            "main",
+            "progets"
+        ],
+        "object_id": "4",
+        "object_repr": "new progect",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Deskrp\", \"All deskrp\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 42,
+    "fields": {
+        "action_time": "2026-10-08T12:16:21.028Z",
+        "user": [
+            "admin_portfolio"
+        ],
+        "content_type": [
+            "main",
+            "progets"
+        ],
+        "object_id": "2",
+        "object_repr": "PetCare",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"All deskrp\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 43,
+    "fields": {
+        "action_time": "2026-10-08T16:08:28.233Z",
+        "user": [
+            "admin_portfolio"
+        ],
+        "content_type": [
+            "main",
+            "progets"
+        ],
+        "object_id": "4",
+        "object_repr": "new progect",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"All deskrp\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 44,
+    "fields": {
+        "action_time": "2026-10-08T16:09:13.271Z",
+        "user": [
+            "admin_portfolio"
+        ],
+        "content_type": [
+            "main",
+            "progets"
+        ],
+        "object_id": "2",
+        "object_repr": "PetCare",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"All deskrp\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 45,
+    "fields": {
+        "action_time": "2026-10-08T16:09:39.779Z",
+        "user": [
+            "admin_portfolio"
+        ],
+        "content_type": [
+            "main",
+            "progets"
+        ],
+        "object_id": "3",
+        "object_repr": "hackaton",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"All deskrp\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 46,
+    "fields": {
+        "action_time": "2026-10-08T16:10:37.906Z",
+        "user": [
+            "admin_portfolio"
+        ],
+        "content_type": [
+            "main",
+            "progets"
+        ],
+        "object_id": "1",
+        "object_repr": "Jewerly scraping",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"All deskrp\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 47,
+    "fields": {
+        "action_time": "2026-10-08T16:11:59.955Z",
+        "user": [
+            "admin_portfolio"
+        ],
+        "content_type": [
+            "main",
+            "progets"
+        ],
+        "object_id": "1",
+        "object_repr": "Jewerly scraping",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Deskrp\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 48,
+    "fields": {
+        "action_time": "2026-10-08T16:13:34.806Z",
+        "user": [
+            "admin_portfolio"
+        ],
+        "content_type": [
+            "main",
+            "progets"
+        ],
+        "object_id": "3",
+        "object_repr": "hackaton",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Deskrp\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 49,
+    "fields": {
+        "action_time": "2026-10-08T16:13:41.416Z",
+        "user": [
+            "admin_portfolio"
+        ],
+        "content_type": [
+            "main",
+            "progets"
+        ],
+        "object_id": "3",
+        "object_repr": "hackaton",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 50,
+    "fields": {
+        "action_time": "2026-10-08T16:13:44.803Z",
+        "user": [
+            "admin_portfolio"
+        ],
+        "content_type": [
+            "main",
+            "progets"
+        ],
+        "object_id": "2",
+        "object_repr": "PetCare",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 51,
+    "fields": {
+        "action_time": "2026-10-08T16:13:47.598Z",
+        "user": [
+            "admin_portfolio"
+        ],
+        "content_type": [
+            "main",
+            "progets"
+        ],
+        "object_id": "1",
+        "object_repr": "Jewerly scraping",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+}
+]

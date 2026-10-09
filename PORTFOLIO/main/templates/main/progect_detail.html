@@ -1,0 +1,85 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ progects_info.name }} | Vladyslav Hadiak</title>
+    <link rel="stylesheet" href="{% static 'main/css/style.css' %}">
+</head>
+<body>
+    <header class="navbar">
+        <a href="{% url 'main' %}" class="logo">VLADYSLAV</a>
+        <nav class="nav-links">
+            <a href="{% url 'main' %}#projects">Work</a>
+            <a href="{% url 'main' %}#about">About</a>
+            <a href="{% url 'main' %}#contact">Contact</a>
+        </nav>
+        <div class="nav-actions">
+            <button id="theme-toggle" class="nav-button" aria-label="Toggle color theme">☾</button>
+        </div>
+    </header>
+
+    <main class="project-detail">
+        <a href="{% url 'main' %}#projects" class="project-back">← Back to projects</a>
+
+        <section class="project-detail-heading">
+            <p class="project-detail-eyebrow">PROJECT DETAILS</p>
+            <h1>{{ progects_info.name }}</h1>
+            <p class="project-detail-summary">{{ progects_info.deskrp }}</p>
+        </section>
+
+        <div class="project-detail-image">
+            {% if progects_info.photo %}
+            <img src="{{ progects_info.photo.url }}" alt="{{ progects_info.name }}">
+            {% else %}
+            <div class="project-detail-image-empty">{{ progects_info.name }}</div>
+            {% endif %}
+        </div>
+
+        {% if progects_info.photos.all %}
+        <section class="project-gallery" aria-label="Project photos">
+            <h2>More photos</h2>
+            <div class="project-gallery-grid">
+                {% for project_photo in progects_info.photos.all %}
+                <figure class="project-gallery-item">
+                    <img src="{{ project_photo.image.url }}" alt="{{ project_photo.caption|default:progects_info.name }}">
+                    {% if project_photo.caption %}
+                    <figcaption>{{ project_photo.caption }}</figcaption>
+                    {% endif %}
+                </figure>
+                {% endfor %}
+            </div>
+        </section>
+        {% endif %}
+
+        <div class="project-detail-columns">
+            <section class="project-detail-section">
+                <h2>About the project</h2>
+                <div class="project-detail-description">
+                    {{ progects_info.all_deskrp|linebreaks }}
+                </div>
+            </section>
+
+            <aside class="project-detail-section project-detail-sidebar">
+                <h2>Technologies</h2>
+                <div class="project-tags">
+                    {% for skill in progects_info.skills.all %}
+                    <span>{{ skill.skill }}</span>
+                    {% empty %}
+                    <span>No technologies added</span>
+                    {% endfor %}
+                </div>
+
+                {% if progects_info.url %}
+                <a href="{{ progects_info.url }}" target="_blank" rel="noopener noreferrer" class="button primary">
+                    Visit project ↗
+                </a>
+                {% endif %}
+            </aside>
+        </div>
+    </main>
+
+    <script src="{% static 'main/js/script.js' %}"></script>
+</body>
+</html>
